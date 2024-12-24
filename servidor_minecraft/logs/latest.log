@@ -557,3 +557,41 @@ java.lang.NullPointerException: null
 [24Dec2024 00:19:31.011] [Thread-491/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> ty
 [24Dec2024 00:19:56.610] [Thread-492/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> q es esto
 [24Dec2024 00:20:08.115] [Thread-493/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> una radio
+[24Dec2024 00:20:40.930] [Thread-494/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> aver el carro
+[24Dec2024 00:20:50.960] [Thread-496/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> aca
+[24Dec2024 00:21:14.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from NotTrainok: Location (122.12458825111389, 138.06837904453278, 39.0) too far away from hit block BlockPos{x=121, y=137, z=37}.
+[24Dec2024 00:21:14.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from NotTrainok: Location (122.12458825111389, 138.06837904453278, 39.0) too far away from hit block BlockPos{x=121, y=137, z=37}.
+[24Dec2024 00:21:48.851] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (118.8856565952301, 138.11970603466034, 39.0) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:48.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (118.8856565952301, 138.11970603466034, 39.0) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:50.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (118.125, 138.53918731212616, 38.633214712142944) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:50.054] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (118.125, 138.53918731212616, 38.633214712142944) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:51.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (119.0, 138.25664913654327, 39.43245995044708) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:51.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (119.0, 138.25664913654327, 39.43245995044708) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:52.052] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (119.0, 138.24117720127106, 39.42250382900238) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:52.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (119.0, 138.24117720127106, 39.42250382900238) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:52.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (119.0, 138.4917597770691, 39.35593068599701) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:52.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Rejecting UseItemOnPacket from Dxn1el_Is: Location (119.0, 138.4917597770691, 39.35593068599701) too far away from hit block BlockPos{x=120, y=137, z=38}.
+[24Dec2024 00:21:55.254] [Thread-497/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> solo es decoracion XD
+[24Dec2024 00:21:58.422] [Thread-498/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> se
+[24Dec2024 00:22:55.650] [Thread-499/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> si quieres ayudame a aplanar
+[24Dec2024 00:24:13.588] [Thread-501/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> zz
+[24Dec2024 00:25:01.552] [Thread-502/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> de donde has sacado 3 muertes
+[24Dec2024 00:25:10.791] [Thread-503/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> al inicio
+[24Dec2024 00:27:14.302] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dxn1el_Is lost connection: Timed out
+[24Dec2024 00:27:14.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dxn1el_Is left the game
+[24Dec2024 00:28:29.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Stopping the server]
+[24Dec2024 00:28:29.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Dec2024 00:28:29.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Dec2024 00:28:29.669] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NotTrainok lost connection: Server closed
+[24Dec2024 00:28:29.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NotTrainok left the game
+[24Dec2024 00:28:29.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Dec2024 00:28:29.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[24Dec2024 00:28:30.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[24Dec2024 00:28:30.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[24Dec2024 00:28:30.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/lostcities:lostcity
+[24Dec2024 00:28:30.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Dec2024 00:28:30.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Dec2024 00:28:30.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Dec2024 00:28:30.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[24Dec2024 00:28:30.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24Dec2024 00:28:30.157] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
