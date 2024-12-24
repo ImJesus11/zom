@@ -1535,3 +1535,41 @@ java.lang.NullPointerException: null
 [24Dec2024 05:43:53.173] [Thread-421/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> de constructor*
 [24Dec2024 05:44:17.273] [Thread-422/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> voy a minar
 [24Dec2024 05:45:35.809] [Thread-426/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> se vuelve aburrido el juego con tanto bajon de fps
+[24Dec2024 05:45:59.574] [Thread-427/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> baja el mipmap a 0
+[24Dec2024 05:46:04.434] [Thread-428/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> ya lo tengo en 0
+[24Dec2024 05:46:05.998] [Thread-429/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> xd
+[24Dec2024 05:46:47.464] [Thread-430/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> hasta cuando pos volver a jugar en aquel sv de mods?
+[24Dec2024 05:46:58.465] [Thread-431/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> hasta enero
+[24Dec2024 05:47:02.810] [Thread-433/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> Fackkk
+[24Dec2024 05:49:34.660] [Thread-434/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> bueno
+[24Dec2024 05:49:35.384] [Thread-435/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> abi
+[24Dec2024 05:49:36.593] [Thread-436/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> bai
+[24Dec2024 05:49:39.469] [Thread-437/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> a
+[24Dec2024 05:49:42.170] [Thread-438/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> bai
+[24Dec2024 05:49:43.622] [Thread-439/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> ya me aburri de estos fpsxd
+[24Dec2024 05:49:52.997] [Thread-440/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> a q horas prendes mañana?
+[24Dec2024 05:50:04.883] [Thread-442/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> no se a que hora puedas
+[24Dec2024 05:50:14.437] [Thread-443/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> te aviso en el dc
+[24Dec2024 05:50:23.238] [Thread-444/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> ok
+[24Dec2024 05:50:26.053] [Thread-445/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> bai
+[24Dec2024 05:50:28.462] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dxn1el_Is lost connection: Disconnected
+[24Dec2024 05:50:28.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dxn1el_Is left the game
+[24Dec2024 05:51:58.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Gave 1 [Blue Dye] to NotTrainok]
+[24Dec2024 05:52:43.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Gave 128 [Iron Ingot] to NotTrainok]
+[24Dec2024 05:53:04.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Gave 1 [Blue Dye] to NotTrainok]
+[24Dec2024 05:56:57.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Stopping the server]
+[24Dec2024 05:56:57.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Dec2024 05:56:57.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Dec2024 05:56:57.581] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: NotTrainok lost connection: Server closed
+[24Dec2024 05:56:57.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NotTrainok left the game
+[24Dec2024 05:56:57.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Dec2024 05:56:57.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[24Dec2024 05:56:57.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[24Dec2024 05:56:57.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[24Dec2024 05:56:57.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/lostcities:lostcity
+[24Dec2024 05:56:57.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Dec2024 05:56:57.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Dec2024 05:56:57.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Dec2024 05:56:57.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[24Dec2024 05:56:58.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24Dec2024 05:56:58.058] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
