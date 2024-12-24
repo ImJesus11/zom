@@ -1195,3 +1195,18 @@ java.lang.NullPointerException: null
 [24Dec2024 21:17:04.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Set own game mode to Creative Mode]
 [24Dec2024 21:17:54.458] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dxn1el_Is lost connection: Timed out
 [24Dec2024 21:17:54.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dxn1el_Is left the game
+[24Dec2024 21:31:40.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Set own game mode to Survival Mode]
+[24Dec2024 21:31:46.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Stopping the server]
+[24Dec2024 21:31:46.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24Dec2024 21:31:46.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24Dec2024 21:31:46.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24Dec2024 21:31:46.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[24Dec2024 21:31:47.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/lostcities:lostcity
+[24Dec2024 21:31:47.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[24Dec2024 21:31:47.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[24Dec2024 21:31:47.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24Dec2024 21:31:47.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[24Dec2024 21:31:47.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24Dec2024 21:31:47.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24Dec2024 21:31:47.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24Dec2024 21:31:47.824] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
