@@ -815,7 +815,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-12-24 03:46:30 +0000",
-      "tropical_fish": "2024-12-23 22:38:19 +0000"
+      "tropical_fish": "2024-12-23 22:38:19 +0000",
+      "bread": "2024-12-24 05:16:51 +0000"
     },
     "done": false
   },

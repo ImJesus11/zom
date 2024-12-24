@@ -829,3 +829,668 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [24Dec2024 04:54:23.835] [Thread-286/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> pendejo
 [24Dec2024 04:54:28.016] [Thread-287/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> yo no fui
 [24Dec2024 04:54:32.513] [Thread-288/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> tu te bajaste
+[24Dec2024 04:55:01.067] [Thread-289/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> voy a buscar hierro
+[24Dec2024 04:55:14.644] [Thread-290/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> ok
+[24Dec2024 04:57:51.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [NotTrainok: Gave 40 [Raw Iron] to NotTrainok]
+[24Dec2024 04:58:50.389] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 34,6: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:281) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.actuallyGenerateStuff(Stuff.java:96) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.generateStuff(Stuff.java:36) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doCityChunk(LostCityTerrainFeature.java:939) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:297) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[24Dec2024 04:58:50.423] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:58:50.424] [Worker-Main-1/INFO] [lostcities/]:     Level: 0
+[24Dec2024 04:58:50.424] [Worker-Main-1/INFO] [lostcities/]:     Multibuilding: huge1
+[24Dec2024 04:58:50.426] [Worker-Main-1/INFO] [lostcities/]:     Building: building4
+[24Dec2024 04:58:50.427] [Worker-Main-1/INFO] [lostcities/]:         Floors: 4
+[24Dec2024 04:58:50.427] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:58:50.690] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 34,5: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:281) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.actuallyGenerateStuff(Stuff.java:96) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.generateStuff(Stuff.java:36) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doCityChunk(LostCityTerrainFeature.java:939) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:297) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[24Dec2024 04:58:50.697] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:58:50.698] [Worker-Main-1/INFO] [lostcities/]:     Level: 0
+[24Dec2024 04:58:50.699] [Worker-Main-1/INFO] [lostcities/]:     Multibuilding: huge1
+[24Dec2024 04:58:50.700] [Worker-Main-1/INFO] [lostcities/]:     Building: building4
+[24Dec2024 04:58:50.702] [Worker-Main-1/INFO] [lostcities/]:         Floors: 4
+[24Dec2024 04:58:50.703] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:58:50.876] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 34,4: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:281) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.actuallyGenerateStuff(Stuff.java:96) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.generateStuff(Stuff.java:36) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doCityChunk(LostCityTerrainFeature.java:939) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:297) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[24Dec2024 04:58:50.886] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:58:50.887] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:58:50.888] [Worker-Main-1/INFO] [lostcities/]:     Building: building7
+[24Dec2024 04:58:50.888] [Worker-Main-1/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:58:50.888] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 3
+[24Dec2024 04:58:58.221] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 34,7: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:281) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.actuallyGenerateStuff(Stuff.java:96) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.generateStuff(Stuff.java:36) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doCityChunk(LostCityTerrainFeature.java:939) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:297) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[24Dec2024 04:58:58.227] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:58:58.228] [Worker-Main-1/INFO] [lostcities/]:     Level: 0
+[24Dec2024 04:58:58.228] [Worker-Main-1/INFO] [lostcities/]:     Multibuilding: huge1
+[24Dec2024 04:58:58.228] [Worker-Main-1/INFO] [lostcities/]:     Building: building4
+[24Dec2024 04:58:58.229] [Worker-Main-1/INFO] [lostcities/]:         Floors: 4
+[24Dec2024 04:58:58.229] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:08.176] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 36,-4: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:281) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.actuallyGenerateStuff(Stuff.java:96) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.generateStuff(Stuff.java:36) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doCityChunk(LostCityTerrainFeature.java:939) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:297) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[24Dec2024 04:59:08.179] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:08.179] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:08.179] [Worker-Main-1/INFO] [lostcities/]:     Building: building8
+[24Dec2024 04:59:08.179] [Worker-Main-1/INFO] [lostcities/]:         Floors: 4
+[24Dec2024 04:59:08.179] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:08.555] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 36,-7: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:281) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.actuallyGenerateStuff(Stuff.java:96) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.generateStuff(Stuff.java:36) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doCityChunk(LostCityTerrainFeature.java:939) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:297) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[24Dec2024 04:59:08.557] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:08.557] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:08.557] [Worker-Main-1/INFO] [lostcities/]:     Building: building8
+[24Dec2024 04:59:08.557] [Worker-Main-1/INFO] [lostcities/]:         Floors: 2
+[24Dec2024 04:59:08.557] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 2
+[24Dec2024 04:59:08.600] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 36,-6: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.state.BlockState.m_60734_()" because "state" is null
+	at mcjty.lostcities.worldgen.ChunkDriver.correct(ChunkDriver.java:281) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.ChunkDriver.add(ChunkDriver.java:322) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.actuallyGenerateStuff(Stuff.java:96) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.gen.Stuff.generateStuff(Stuff.java:36) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.doCityChunk(LostCityTerrainFeature.java:939) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityTerrainFeature.generate(LostCityTerrainFeature.java:297) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at mcjty.lostcities.worldgen.LostCityFeature.m_142674_(LostCityFeature.java:62) ~[lostcities-1.20-7.3.5.jar%23290!/:1.20-7.3.5]
+	at net.minecraft.world.level.levelgen.feature.Feature.m_225028_(Feature.java:155) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.m_224953_(ConfiguredFeature.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226362_(PlacedFeature.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:712) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226368_(PlacedFeature.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.m_226377_(PlacedFeature.java:42) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:357) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:252) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:643) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23343!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[24Dec2024 04:59:08.602] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:08.602] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:08.602] [Worker-Main-1/INFO] [lostcities/]:     Building: building1
+[24Dec2024 04:59:08.602] [Worker-Main-1/INFO] [lostcities/]:         Floors: 2
+[24Dec2024 04:59:08.602] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:08.858] [Thread-299/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> bruh}
+[24Dec2024 04:59:13.036] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 37,-6: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:13.039] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:13.040] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:13.042] [Worker-Main-1/INFO] [lostcities/]:     Building: building4
+[24Dec2024 04:59:13.043] [Worker-Main-1/INFO] [lostcities/]:         Floors: 1
+[24Dec2024 04:59:13.044] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 2
+[24Dec2024 04:59:17.630] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 38,-3: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:17.631] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:17.632] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:17.632] [Worker-Main-1/INFO] [lostcities/]:     Multibuilding: shopping
+[24Dec2024 04:59:17.633] [Worker-Main-1/INFO] [lostcities/]:     Building: shopping01
+[24Dec2024 04:59:17.633] [Worker-Main-1/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:17.634] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:17.716] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 38,-4: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:17.717] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:17.717] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:17.723] [Worker-Main-1/INFO] [lostcities/]:     Multibuilding: shopping
+[24Dec2024 04:59:17.723] [Worker-Main-1/INFO] [lostcities/]:     Building: shopping00
+[24Dec2024 04:59:17.728] [Worker-Main-1/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:17.728] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:23.231] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 39,-1: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:23.231] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:23.231] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:23.232] [Worker-Main-1/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:23.232] [Worker-Main-1/INFO] [lostcities/]:         Floors: 1
+[24Dec2024 04:59:23.232] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 2
+[24Dec2024 04:59:23.505] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 39,-3: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:23.511] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:23.513] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:23.516] [Worker-Main-1/INFO] [lostcities/]:     Multibuilding: shopping
+[24Dec2024 04:59:23.516] [Worker-Main-1/INFO] [lostcities/]:     Building: shopping11
+[24Dec2024 04:59:23.517] [Worker-Main-1/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:23.518] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:23.639] [Worker-Main-1/ERROR] [lostcities/]: Error generating chunk 39,-4: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:23.640] [Worker-Main-1/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:23.640] [Worker-Main-1/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:23.640] [Worker-Main-1/INFO] [lostcities/]:     Multibuilding: shopping
+[24Dec2024 04:59:23.640] [Worker-Main-1/INFO] [lostcities/]:     Building: shopping10
+[24Dec2024 04:59:23.640] [Worker-Main-1/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:23.640] [Worker-Main-1/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:30.132] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 40,-7: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:30.133] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:30.133] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:30.133] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:30.133] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:30.133] [Worker-Main-108/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:30.133] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:30.195] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 40,-6: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:30.196] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:30.196] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:30.196] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:30.196] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:30.197] [Worker-Main-108/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:30.197] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:35.687] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,-8: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:35.689] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:35.689] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:35.689] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:35.690] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:35.691] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:35.692] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:35.878] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,-7: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:35.878] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:35.880] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:35.880] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:35.883] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:35.884] [Worker-Main-108/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:35.884] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:36.129] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,-6: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:36.130] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:36.130] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:36.130] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:36.130] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:36.130] [Worker-Main-108/INFO] [lostcities/]:         Floors: 6
+[24Dec2024 04:59:36.130] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 0
+[24Dec2024 04:59:36.205] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,-9: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:36.211] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:36.214] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:36.216] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:36.216] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:36.217] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:36.218] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:39.519] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,11: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:39.520] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:39.520] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:39.520] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:39.520] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:39.520] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:39.520] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:39.559] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,-4: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:39.564] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:39.564] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:39.565] [Worker-Main-108/INFO] [lostcities/]:     Building: building7
+[24Dec2024 04:59:39.565] [Worker-Main-108/INFO] [lostcities/]:         Floors: 2
+[24Dec2024 04:59:39.565] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:39.587] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,-3: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:39.591] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:39.592] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:39.592] [Worker-Main-108/INFO] [lostcities/]:     Building: building4
+[24Dec2024 04:59:39.592] [Worker-Main-108/INFO] [lostcities/]:         Floors: 5
+[24Dec2024 04:59:39.592] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:39.702] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,12: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:39.750] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:39.750] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:39.750] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi2
+[24Dec2024 04:59:39.750] [Worker-Main-108/INFO] [lostcities/]:     Building: building2
+[24Dec2024 04:59:39.750] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:39.750] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:40.461] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,13: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:40.462] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:40.462] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:40.462] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi4
+[24Dec2024 04:59:40.462] [Worker-Main-108/INFO] [lostcities/]:     Building: building4
+[24Dec2024 04:59:40.462] [Worker-Main-108/INFO] [lostcities/]:         Floors: 2
+[24Dec2024 04:59:40.462] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 1
+[24Dec2024 04:59:40.563] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 41,14: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:40.564] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:40.564] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:40.564] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi4
+[24Dec2024 04:59:40.564] [Worker-Main-108/INFO] [lostcities/]:     Building: building4
+[24Dec2024 04:59:40.564] [Worker-Main-108/INFO] [lostcities/]:         Floors: 2
+[24Dec2024 04:59:40.564] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 1
+[24Dec2024 04:59:52.688] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 37,17: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:52.691] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:52.691] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:52.692] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi3
+[24Dec2024 04:59:52.693] [Worker-Main-108/INFO] [lostcities/]:     Building: building3
+[24Dec2024 04:59:52.693] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:52.693] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:53.232] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 38,17: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:53.236] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:53.236] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:53.237] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi3
+[24Dec2024 04:59:53.237] [Worker-Main-108/INFO] [lostcities/]:     Building: building3
+[24Dec2024 04:59:53.239] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:53.239] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:55.435] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 37,18: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:55.436] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:55.436] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:55.436] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi3
+[24Dec2024 04:59:55.436] [Worker-Main-108/INFO] [lostcities/]:     Building: building3
+[24Dec2024 04:59:55.437] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:55.437] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:55.579] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 38,18: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:55.580] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:55.580] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:55.580] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi3
+[24Dec2024 04:59:55.580] [Worker-Main-108/INFO] [lostcities/]:     Building: building3
+[24Dec2024 04:59:55.580] [Worker-Main-108/INFO] [lostcities/]:         Floors: 3
+[24Dec2024 04:59:55.580] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 04:59:55.796] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 39,18: null
+java.lang.NullPointerException: null
+[24Dec2024 04:59:55.796] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 04:59:55.797] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 04:59:55.797] [Worker-Main-108/INFO] [lostcities/]:     Building: building8
+[24Dec2024 04:59:55.797] [Worker-Main-108/INFO] [lostcities/]:         Floors: 4
+[24Dec2024 04:59:55.797] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 1
+[24Dec2024 05:00:08.671] [Thread-301/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> tofos los chunks mal generados xd
+[24Dec2024 05:00:14.126] [Thread-302/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> fr
+[24Dec2024 05:00:54.551] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 36,23: null
+java.lang.NullPointerException: null
+[24Dec2024 05:00:54.572] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 05:00:54.573] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 05:00:54.573] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi4
+[24Dec2024 05:00:54.574] [Worker-Main-108/INFO] [lostcities/]:     Building: building4
+[24Dec2024 05:00:54.574] [Worker-Main-108/INFO] [lostcities/]:         Floors: 4
+[24Dec2024 05:00:54.575] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 05:00:54.639] [Worker-Main-108/ERROR] [lostcities/]: Error generating chunk 37,23: null
+java.lang.NullPointerException: null
+[24Dec2024 05:00:54.641] [Worker-Main-108/INFO] [lostcities/]: IsCity: true
+[24Dec2024 05:00:54.642] [Worker-Main-108/INFO] [lostcities/]:     Level: 1
+[24Dec2024 05:00:54.643] [Worker-Main-108/INFO] [lostcities/]:     Multibuilding: multi4
+[24Dec2024 05:00:54.644] [Worker-Main-108/INFO] [lostcities/]:     Building: building4
+[24Dec2024 05:00:54.644] [Worker-Main-108/INFO] [lostcities/]:         Floors: 4
+[24Dec2024 05:00:54.645] [Worker-Main-108/INFO] [lostcities/]:         Cellars: 4
+[24Dec2024 05:01:17.693] [Thread-304/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> pq se ven tan pixeleadas los ingredientes de las armas
+[24Dec2024 05:01:49.489] [Thread-305/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> no se
+[24Dec2024 05:02:05.821] [Thread-306/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> tienes 12 de iron?
+[24Dec2024 05:02:31.227] [Thread-308/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> pendejo me asuste XD
+[24Dec2024 05:02:33.752] [Thread-309/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> XD
+[24Dec2024 05:02:35.071] [Thread-310/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> no
+[24Dec2024 05:02:36.103] [Thread-311/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> JJAJSAJSJAS
+[24Dec2024 05:02:44.493] [Thread-312/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> casi te disparo
+[24Dec2024 05:02:46.798] [Thread-313/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> lo paraba como buen policia americano
+[24Dec2024 05:02:53.370] [Thread-314/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> fr
+[24Dec2024 05:02:58.478] [Thread-315/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> al ver un negro le pedia algo
+[24Dec2024 05:02:59.030] [Thread-316/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> gg
+[24Dec2024 05:03:10.351] [Thread-317/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> es por mi mascara verdad?
+[24Dec2024 05:03:16.175] [Thread-318/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> si
+[24Dec2024 05:03:25.784] [Thread-319/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> presta 12 de iron
+[24Dec2024 05:03:35.298] [Thread-320/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> tengo de la blanca oficial
+[24Dec2024 05:03:41.741] [Thread-321/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> pasa
+[24Dec2024 05:04:03.383] [Thread-322/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> tienes uniforme italiano
+[24Dec2024 05:04:07.745] [Thread-323/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> es pq
+[24Dec2024 05:04:09.393] [Thread-324/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> eeeee
+[24Dec2024 05:05:06.171] [Thread-325/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> q
+[24Dec2024 05:05:12.901] [Thread-326/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> es
+[24Dec2024 05:05:13.811] [Thread-327/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> eso
+[24Dec2024 05:05:18.826] [Thread-328/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> una uzi
+[24Dec2024 05:05:31.332] [Thread-330/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> tantas armas que tenemos y ni vamos a accion
+[24Dec2024 05:05:33.293] [Thread-331/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> XDD
+[24Dec2024 05:05:45.578] [Thread-332/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> go ciudad
+[24Dec2024 05:05:47.617] [Thread-333/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> go ciudad?
+[24Dec2024 05:05:48.493] [Thread-334/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> a
+[24Dec2024 05:06:08.763] [Thread-335/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> mori
+[24Dec2024 05:06:27.112] [Thread-336/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> q
+[24Dec2024 05:06:34.427] [Thread-337/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> killme
+[24Dec2024 05:06:50.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dxn1el_Is was shot by NotTrainok
+[24Dec2024 05:07:37.498] [Thread-340/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> need comida
+[24Dec2024 05:08:22.044] [Thread-341/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> ando teniendo unos tironazos
+[24Dec2024 05:08:27.535] [Thread-342/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> x2
+[24Dec2024 05:08:39.866] [Thread-343/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> go?
+[24Dec2024 05:08:48.310] [Thread-344/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> JAJAJAJ
+[24Dec2024 05:09:02.264] [Thread-345/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> pq corremos
+[24Dec2024 05:09:48.380] [Thread-347/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> es demasiado los tirones que estoy teniendo
+[24Dec2024 05:10:14.766] [Thread-348/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> si me dio infeccion valivrg
+[24Dec2024 05:10:38.314] [Thread-349/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> XD
+[24Dec2024 05:11:28.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dxn1el_Is was slain by Zombie
+[24Dec2024 05:11:34.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: NotTrainok was slain by Zombie
+[24Dec2024 05:11:46.190] [Thread-352/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> esta mal optimizado el sv
+[24Dec2024 05:11:50.242] [Thread-353/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> tengo DEMASIADOS TIRONES
+[24Dec2024 05:13:41.422] [Thread-354/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> tengo perfume carisimo
+[24Dec2024 05:13:49.322] [Thread-355/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> increible
+[24Dec2024 05:14:04.035] [Thread-356/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> un perfume carisimo en un apocalipsis mundial
+[24Dec2024 05:14:39.531] [Thread-357/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> go o ne?
+[24Dec2024 05:16:31.845] [Thread-360/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> tienes balas?
+[24Dec2024 05:16:40.770] [Thread-361/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> solo de 9mm
+[24Dec2024 05:16:43.911] [Thread-362/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> fack
+[24Dec2024 05:16:45.162] [Server thread/WARN] [dev.gigaherz.eyes.EyesSpawningManager/]: WARNING: Unexpectedly long spawn cycle. It ran for 61.457ms!
+[24Dec2024 05:19:57.691] [Thread-364/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> go aca
+[24Dec2024 05:21:15.213] [Thread-367/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> libros
+[24Dec2024 05:21:24.262] [Thread-368/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> aca
+[24Dec2024 05:23:19.694] [Thread-369/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> doonde esta la ranura face?
+[24Dec2024 05:23:31.320] [Thread-370/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> al lado de la armor hay un boton
+[24Dec2024 05:23:46.863] [Thread-371/INFO] [net.minecraft.server.MinecraftServer/]: <NotTrainok> llevo cubrebocas
+[24Dec2024 05:23:47.111] [Thread-372/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> ya
+[24Dec2024 05:24:24.584] [Thread-373/INFO] [net.minecraft.server.MinecraftServer/]: <Dxn1el_Is> alamierda
