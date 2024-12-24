@@ -50,8 +50,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2024-12-24 21:08:25 +0000",
       "minecraft:lush_caves": "2024-12-21 19:05:35 +0000",
-      "minecraft:windswept_forest": "2024-12-23 23:59:00 +0000"
+      "minecraft:windswept_forest": "2024-12-23 23:59:00 +0000",
+      "minecraft:snowy_beach": "2024-12-24 21:11:54 +0000"
     },
     "done": false
   },
@@ -815,6 +817,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-12-24 03:46:30 +0000",
+      "cooked_beef": "2024-12-24 21:09:58 +0000",
       "tropical_fish": "2024-12-23 22:38:19 +0000",
       "bread": "2024-12-24 05:16:51 +0000",
       "glow_berries": "2024-12-24 20:33:19 +0000"
@@ -3326,6 +3329,12 @@
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_orange_tulip": "2024-12-24 20:36:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2024-12-24 21:12:18 +0000"
     },
     "done": true
   },
