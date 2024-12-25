@@ -1687,3 +1687,114 @@ com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
 [08:10:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
 [08:10:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
 [08:10:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyfacehillsredrun but it was marked as removed already
+[08:10:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyface but it was marked as removed already
+[08:10:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyface but it was marked as removed already
+[08:11:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set own game mode to Survival Mode]
+[08:11:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok has made the advancement [Stone Age]
+[08:11:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:jigsaw but it was marked as removed already
+[08:11:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:candyman but it was marked as removed already
+[08:11:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:leatherface but it was marked as removed already
+[08:11:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set the time to 1000]
+[08:11:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:black_lagoon but it was marked as removed already
+[08:11:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:lallorona but it was marked as removed already
+[08:11:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
+[08:12:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set own game mode to Creative Mode]
+[08:12:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:jasonvoorhees but it was marked as removed already
+[08:12:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:jasonvoorhees but it was marked as removed already
+[08:12:27] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:kayako but it was marked as removed already
+[08:12:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:hannibal but it was marked as removed already
+[08:12:39] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:michaelmyers but it was marked as removed already
+[08:12:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:nun but it was marked as removed already
+[08:12:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:nun but it was marked as removed already
+[08:12:52] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[08:12:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:frankenstein but it was marked as removed already
+[08:12:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:teketeke but it was marked as removed already
+[08:12:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:teketeke but it was marked as removed already
+[08:12:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:teketeke but it was marked as removed already
+[08:12:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:12:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Killed Annabelle]
+[08:12:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:annabelle2 but it was marked as removed already
+[08:12:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:12:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Killed Annabelle]
+[08:13:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:kuchisakeonna but it was marked as removed already
+[08:13:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:13:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:annabelle2 but it was marked as removed already
+[08:13:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
+[08:13:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pyramidhead but it was marked as removed already
+[08:13:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pyramidhead but it was marked as removed already
+[08:13:30] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:leatherface but it was marked as removed already
+[08:13:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pennywise but it was marked as removed already
+[08:13:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:jigsaw but it was marked as removed already
+[08:13:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
+[08:13:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:hannibal but it was marked as removed already
+[08:13:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:hannibal but it was marked as removed already
+[08:13:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:black_lagoon but it was marked as removed already
+[08:13:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pinhead but it was marked as removed already
+[08:13:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pinhead but it was marked as removed already
+[08:13:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pinhead but it was marked as removed already
+[08:13:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:teketeke but it was marked as removed already
+[08:13:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyface but it was marked as removed already
+[08:13:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyface but it was marked as removed already
+[08:13:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pennywise but it was marked as removed already
+[08:13:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:kayako but it was marked as removed already
+[08:13:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:13:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Killed Chucky]
+[08:13:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:chucky but it was marked as removed already
+[08:13:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:kuchisakeonna but it was marked as removed already
+[08:13:45] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[08:13:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:frankenstein but it was marked as removed already
+[08:13:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pyramidhead but it was marked as removed already
+[08:13:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyface but it was marked as removed already
+[08:13:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:leprechaun but it was marked as removed already
+[08:13:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
+[08:13:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:michaelmyers but it was marked as removed already
+[08:13:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:teketeke but it was marked as removed already
+[08:13:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:nun but it was marked as removed already
+[08:13:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:13:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Killed Chucky]
+[08:13:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:chucky but it was marked as removed already
+[08:13:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:13:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Killed Annabelle]
+[08:13:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:annabelle2 but it was marked as removed already
+[08:13:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:frankenstein but it was marked as removed already
+[08:13:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pinhead but it was marked as removed already
+[08:13:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:13:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:chucky but it was marked as removed already
+[08:13:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[08:13:54] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:annabelle2 but it was marked as removed already
+[08:13:55] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyfacehillsredrun but it was marked as removed already
+[08:13:57] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[08:13:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:black_lagoon but it was marked as removed already
+[08:13:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:babyfacehillsredrun but it was marked as removed already
+[08:13:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:michaelmyers but it was marked as removed already
+[08:13:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:kayako but it was marked as removed already
+[08:14:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
+[08:14:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pennywise but it was marked as removed already
+[08:14:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:lallorona but it was marked as removed already
+[08:14:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:hannibal but it was marked as removed already
+[08:14:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:hannibal but it was marked as removed already
+[08:14:02] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:michaelmyers but it was marked as removed already
+[08:14:03] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:pennywise1990 but it was marked as removed already
+[08:14:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:kayako but it was marked as removed already
+[08:14:09] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:leatherface but it was marked as removed already
+[08:14:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:hannibal but it was marked as removed already
+[08:14:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set the world spawn point to (-367, 69, 199)]
+[08:14:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set the time to 1000]
+[08:14:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set own game mode to Survival Mode]
+[08:14:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Stopping the server]
+[08:14:38] [Server thread/INFO] [cannibalism]: [Cannibalism] Writing playerdata to file...
+[08:14:38] [Server thread/INFO] [cannibalism]: [Cannibalism] Completed
+[08:14:38] [Server thread/INFO] [STDOUT]: [lain.mods.cos.InventoryManager:onServerStopping:234]: Server is stopping... force saving all loaded CosmeticArmor data.
+[08:14:38] [Server thread/INFO] [STDOUT]: [lain.mods.cos.InventoryManager:onServerStopping:237]: 2013165f-f22c-305a-8b32-33fa70672379
+[08:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[08:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[08:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[08:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[08:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/ExtraUtils2_Quarry_Dim
+[08:14:38] [Server thread/INFO] [FML]: Unloading dimension 0
+[08:14:38] [Server thread/INFO] [FML]: Unloading dimension -9999
+[08:14:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[08:14:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[08:14:38] [Server Shutdown Thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NotTrainok lost connection: Server closed
+[08:14:38] [Server Shutdown Thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok left the game
+[08:14:38] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
