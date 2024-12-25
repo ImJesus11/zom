@@ -107,15 +107,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2024-12-25 08:07:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2024-12-25 08:03:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-12-25 08:07:21 +0000"
     },
     "done": true
   },
@@ -251,15 +251,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2024-12-25 08:03:50 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
       "has_planks": "2024-12-25 08:03:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-25 08:03:50 +0000"
     },
     "done": true
   },
@@ -275,15 +275,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2024-12-25 08:03:50 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2024-12-25 08:03:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-25 08:03:50 +0000"
     },
     "done": true
   },
@@ -293,15 +293,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2024-12-25 08:11:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2024-12-25 08:03:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2024-12-25 08:11:12 +0000"
     },
     "done": true
   },
@@ -377,15 +377,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/yellow_wool": {
-    "criteria": {
-      "has_white_wool": "2024-12-25 08:11:25 +0000"
-    },
-    "done": true
-  },
   "hmm:difficulty_easy": {
     "criteria": {
       "difficulty_easy": "2024-12-25 08:02:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2024-12-25 08:11:25 +0000"
     },
     "done": true
   },
