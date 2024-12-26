@@ -1663,3 +1663,29 @@ com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
 [20:06:57] [Server thread/WARN] [FML]: MalisisCore loaded a new chunk [-17, 19] in dimension 0 (overworld) while populating chunk [-15, 20], causing cascading worldgen lag.
 [20:06:57] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
 [20:06:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:freddykrueger but it was marked as removed already
+[20:07:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is is bleeding...
+[20:07:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set own game mode to Survival Mode]
+[20:08:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok is bleeding...
+[20:08:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok was slain by Frostmaw
+[20:08:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is was eaten by a Grue
+[20:08:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Dxn1el_Is lost connection: Disconnected
+[20:08:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is left the game
+[20:08:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:hannibal but it was marked as removed already
+[20:08:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: NotTrainok lost connection: Disconnected
+[20:08:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok left the game
+[20:09:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[20:09:15] [Server thread/INFO] [cannibalism]: [Cannibalism] Writing playerdata to file...
+[20:09:15] [Server thread/INFO] [cannibalism]: [Cannibalism] Completed
+[20:09:15] [Server thread/INFO] [STDOUT]: [lain.mods.cos.InventoryManager:onServerStopping:234]: Server is stopping... force saving all loaded CosmeticArmor data.
+[20:09:15] [Server thread/INFO] [STDOUT]: [lain.mods.cos.InventoryManager:onServerStopping:237]: 2013165f-f22c-305a-8b32-33fa70672379
+[20:09:15] [Server thread/INFO] [STDOUT]: [lain.mods.cos.InventoryManager:onServerStopping:237]: a6061103-4a1b-3c83-9cd4-d7dcf2669323
+[20:09:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:09:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:09:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:09:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[20:09:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/ExtraUtils2_Quarry_Dim
+[20:09:16] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:09:16] [Server thread/INFO] [FML]: Unloading dimension -9999
+[20:09:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:09:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:09:16] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
