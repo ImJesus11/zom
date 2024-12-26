@@ -1613,3 +1613,53 @@ com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:trapdoor'
 [19:55:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:krampus but it was marked as removed already
 [19:56:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is was slain by Rupter
 [19:56:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Dxn1el_Is> ati no se te pone la pantalla en blanco cuando te golpean?
+[19:57:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Object successfully summoned]
+[19:57:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [: Killed Chucky]
+[19:57:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:chucky but it was marked as removed already
+[19:57:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:lallorona but it was marked as removed already
+[19:57:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok is bleeding...
+[19:57:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <NotTrainok> como
+[19:57:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok was slain by Rupter
+[19:57:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:jasonvoorhees but it was marked as removed already
+[19:57:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:freddykrueger but it was marked as removed already
+[19:57:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <NotTrainok> donde andas
+[19:57:57] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id minecraft:
+[19:58:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:ghostface but it was marked as removed already
+[19:59:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Dxn1el_Is> se me puso la pantalla en blanco y no miro nada
+[19:59:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Dxn1el_Is> ati tmb se te pone ati??
+[19:59:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <NotTrainok> a
+[19:59:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <NotTrainok> no
+[19:59:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set own game mode to Creative Mode]
+[20:00:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <NotTrainok> estas bug?
+[20:00:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is is bleeding...
+[20:00:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Teleported NotTrainok to Dxn1el_Is]
+[20:00:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is is bleeding...
+[20:00:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <NotTrainok> no veo mobs
+[20:01:09] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2533ms behind, skipping 50 tick(s)
+[20:01:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is is bleeding...
+[20:01:26] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2733ms behind, skipping 54 tick(s)
+[20:01:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set own game mode to Survival Mode]
+[20:02:12] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 23274ms behind, skipping 465 tick(s)
+[20:02:16] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3816ms behind, skipping 76 tick(s)
+[20:03:05] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 25012ms behind, skipping 500 tick(s)
+[20:03:09] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3876ms behind, skipping 77 tick(s)
+[20:03:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is is bleeding...
+[20:03:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok is bleeding...
+[20:03:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok was blown up by Creeper
+[20:03:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:freddykrueger but it was marked as removed already
+[20:04:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Dxn1el_Is was blown up by Creeper
+[20:04:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok is bleeding...
+[20:04:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: NotTrainok was struck by lightning
+[20:04:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [NotTrainok: Set own game mode to Spectator Mode]
+[20:06:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:freddykrueger but it was marked as removed already
+[20:06:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:leprechaun but it was marked as removed already
+[20:06:09] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[20:06:11] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id minecraft:
+[20:06:16] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id minecraft:
+[20:06:24] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[20:06:30] [Server thread/WARN] [FML]: SRP: Nests Addon (by NoCube) loaded a new chunk [-10, 19] in dimension 0 (overworld) while populating chunk [-10, 18], causing cascading worldgen lag.
+[20:06:30] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:06:47] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id minecraft:
+[20:06:57] [Server thread/WARN] [FML]: MalisisCore loaded a new chunk [-17, 19] in dimension 0 (overworld) while populating chunk [-15, 20], causing cascading worldgen lag.
+[20:06:57] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[20:06:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Tried to add entity hmm:freddykrueger but it was marked as removed already
